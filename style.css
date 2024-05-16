@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Hind:500);
+
+body {
+	background-color: #2C3E50;;
+	width: auto;
+}
+
+.hider {
+	height: 135px;
+	width: 500px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: hind, arial, sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: white;
+}
+
+.completed h1 {
+	text-align: center;
+}
+
+input {
+	background-color: #2C3E50;
+	border: none;
+	height: 60px;
+	width: 100%;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	font-family: open sans, sans-serif, arial;
+	padding: 0 20px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.next-btn {
+	width: 60px;
+	height: 60px;
+	background-color: #1562b2;
+	border-radius: 10px;
+	color: white;
+	font-size: 28px;
+	padding-left: 15px;
+	transition: all 200ms ease-out;
+}
+
+.next-btn:focus, .next-btn:hover {
+	color: white;
+	outline: none;
+	background-color: transparent;
+	border: 3px solid #1562b2;
+}
+
+.indicator p {
+	color: white;
+	font-family: open sans, sans-serif, arial;
+	text-align: right;
+	margin: 12px 0 0 0;
+}
+
+.progress-bar {
+	height: 5px;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left:-100%;
+}
+
+.logo {
+	position: fixed; 
+	left: 0;
+	top:20px;
+}
+
+.footer {
+	 position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	  height: 50px;
+    color: white;
+    text-align: center;
+}
+.logo{
+	margin-left: 1.55rem;
+	height: 21%;
+	width: 9%;
+}
